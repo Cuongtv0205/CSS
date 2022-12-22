@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .y {
+        width: 300px;
+        height: 300px;
+        background: red;
+        animation: demo 3s infinite;
+        transition: 3s;
+    }
+
+    @keyframes demo {
+        0% {
+            background: red;
+        }
+        50% {
+            border-radius: 50%;
+            background: blue;
+        }
+        70% {
+            background: blue;
+        }
+    }
+
+    /*.y:hover {*/
+    /*    background: red;*/
+    /*    border-radius: 50%;*/
+    /*    transform: scale(0.3);*/
+    /*}*/
+</style>
+<body>
+<div class="y"></div>
+</body>
+</html>
